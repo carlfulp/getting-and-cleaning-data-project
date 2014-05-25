@@ -52,6 +52,7 @@ colnames(totalData) <- gsub("Acc", "Acceleration", colnames(totalData))
 colnames(totalData) <- gsub("Mag", "Magnitude", colnames(totalData))
 colnames(totalData) <- gsub("fBody", "FrequencyBody", colnames(totalData))
 colnames(totalData) <- gsub("tBody", "TimeBody", colnames(totalData))
+colnames(totalData) <- gsub("tGravity", "TimeGravity", colnames(totalData))
 colnames(totalData) <- gsub("mean", "Mean", colnames(totalData))
 colnames(totalData) <- gsub("std", "StdDev", colnames(totalData))
 
