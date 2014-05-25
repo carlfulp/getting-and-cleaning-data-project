@@ -1,5 +1,9 @@
 ## getting-and-cleaning-data-project
 
+The data set used herein is derived from the "Human Activity Recognition Using Smartphones Data Set," described in 
+
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012 and http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+
 # Data Collection Description
 
 [The following was copied verbatim from the "ReadMe.txt" file contained in the original data set.]
@@ -15,6 +19,13 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 # Feature Selection 
 
 [The following was copied verbatim from the "features_info" file contained in the original data set.]
+
+For each record in the dataset it is provided: 
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+* Triaxial Angular velocity from the gyroscope. 
+* A 561-feature vector with time and frequency domain variables. 
+* Its activity label. 
+* An identifier of the subject who carried out the experiment.
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
