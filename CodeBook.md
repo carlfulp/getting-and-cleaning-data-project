@@ -54,6 +54,8 @@ To obtain a "tidy data" set, data was processed as follows:
 
 ## Codebook for TidyData
 
+The summarized tidy data set, generated from the "run_analysis.R" script, contains 180 observations (30 subjects * 6 activities/subject) for 68 variables.  The 68 variables are described below.
+
 |Variable Name                                  	|  Variable Description 	|
 |--------------------------------------------------	|---	|
 | Subject                                          	|  Number 1-30 corresponding to each of the 30 individuals of whom were subjects of the experiment |
