@@ -9,9 +9,9 @@ To fulfill this goal, students were instructed to create a single R script calle
 * Appropriately labels the data set with descriptive activity names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The dataset to be cleaned and summarized is the "Human Activity Recognition Using Smartphones Data Set," described here (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and in greater detail in the CodeBook contained withing this directly.  Briefly, the data set is a large multivariate, time-series (10299 instances of 561 attributes) built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+The dataset to be cleaned and summarized is the "Human Activity Recognition Using Smartphones Data Set," described here (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and in greater detail within the CodeBook markdown file contained withing this directory.  Briefly, the data set is a large multivariate, time-series (10299 instances of 561 attributes) built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-To fulfill the assigned goal, data was processed as follows:
+To fulfill the assigned goal, I processed the data as follows:
 
 * Data was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzipped.  A script, designated as "run_analysis.R" and included in this directory, was generated using R v.3.0.3 to complete the subsequent steps.
 * Of the original data, the following files were used to generate the tidy data set: "X_test.txt," "y_test.txt," "subject_test.txt," "X_train.txt," "y_train.txt," "subject_train.txt," "features.txt," and "activity_labels.txt."
