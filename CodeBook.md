@@ -58,69 +58,69 @@ To obtain a "tidy data" set, data was processed as follows:
 |--------------------------------------------------	|---	|
 | Subject                                          	|  Number 1-30 corresponding to each of the 30 individuals of whom were subjects of the experiment |
 | Activity                                         	|  One of the six activities measured for each subject (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)|
-| TimeBodyAccelerationMeanX                        	|  Mean value of time of body acceleration signal in the X axial signaling direction, measured in seconds	|
-| TimeBodyAccelerationMeanY                        	|  Mean value of time of body acceleration signal in the Y axial signaling direction, measured in seconds	|
-| TimeBodyAccelerationMeanZ                        	|  Mean value of time of body acceleration signal in the Z axial signaling direction, measured in seconds	|
-| TimeBodyAccelerationStdDevX                      	|  Normalized standard deviation of time of body acceleration signal in the X axial signaling direction	|
-| TimeBodyAccelerationStdDevY                      	|  Normalized standard deviation of time of body acceleration signal in the Y axial signaling direction	|
-| TimeBodyAccelerationStdDevZ                      	|  Normalized standard deviation of time of body acceleration signal in the Z axial signaling direction	|
-| TimeGravityAccelerationMeanX                     	|  Mean value of time of gravity acceleration signal in the X axial signaling direction, measured in seconds	|
-| TimeGravityAccelerationMeanY                     	|  Mean value of time of gravity acceleration signal in the Y axial signaling direction, measured in seconds	|
-| TimeGravityAccelerationMeanZ                     	|  Mean value of time of gravity acceleration signal in the Z axial signaling direction, measured in seconds	|
-| TimeGravityAccelerationStdDevX                   	|  Normalized standard deviation of time of gravity acceleration signal in the X axial signaling direction	|
-| TimeGravityAccelerationStdDevY                   	|  Normalized standard deviation of time of gravity acceleration signal  in the Y axial signaling direction	|
-| TimeGravityAccelerationStdDevZ                   	|  Normalized standard deviation of time of gravity acceleration signal in the Z axial signaling direction	|
-| TimeBodyAccelerationJerkMeanX                    	|  Mean value of time of body acceleration jerk signal in the X axial signaling direction, measured in seconds	|
-| TimeBodyAccelerationJerkMeanY                    	|  Mean value of time of body acceleration jerk signal in the Y axial signaling direction, measured in seconds	|
-| TimeBodyAccelerationJerkMeanZ                    	|  Mean value of time of body acceleration jerk signal in the Z axial signaling direction, measured in seconds	|
-| TimeBodyAccelerationJerkStdDevX                  	|  Normalized standard deviation of time of body acceleration jerk signal in the X axial signaling direction	|
-| TimeBodyAccelerationJerkStdDevY                  	|  Normalized standard deviation of time of body acceleration jerk signal in the Y axial signaling direction	|
-| TimeBodyAccelerationJerkStdDevZ                  	|  Normalized standard deviation of time of body acceleration jerk signal in the Z axial signaling direction	|
-| TimeBodyGyroMeanX                                	|  Mean value of time of angular velocity in the X axial signaling direction, measured in seconds	|
-| TimeBodyGyroMeanY                                	|  Mean value of time of angular velocity in the Y axial signaling direction, measured in seconds	|
-| TimeBodyGyroMeanZ                                	|  Mean value of time of angular velocity in the Z axial signaling direction, measured in seconds	|
-| TimeBodyGyroStdDevX                              	|  Normalized standard deviation of time of angular velocity in the X axial signaling direction 	|
-| TimeBodyGyroStdDevY                              	|  Normalized standard deviation of time of angular velocity in the Y axial signaling direction	|
-| TimeBodyGyroStdDevZ                              	|  Normalized standard deviation of time of angular velocity in the Z axial signaling direction	|
-| TimeBodyGyroJerkMeanX                            	|  Mean value of time of angular velocity in the jerk signal in the X axial signaling direction, measured in seconds	|
-| TimeBodyGyroJerkMeanY                            	|  Mean value of time of angular velocity in the jerk signal in the Y axial signaling direction, measured in seconds	|
-| TimeBodyGyroJerkMeanZ                            	|  Mean value of time of angular velocity in the jerk signal in the Z axial signaling direction, measured in seconds	|
-| TimeBodyGyroJerkStdDevX                          	|  Normalized standard deviation of time of angular velocity in the jerk signal  in the X axial signaling direction	|
-| TimeBodyGyroJerkStdDevY                          	|  Normalized standard deviation of time of angular velocity in the jerk signal  in the Y axial signaling direction	|
-| TimeBodyGyroJerkStdDevZ                          	|  Normalized standard deviation of time of angular velocity in the jerk signal  in the Z axial signaling direction	|
-| TimeBodyAccelerationMagnitudeMean                	|  Mean value, measured in seconds 	|
-| TimeBodyAccelerationMagnitudeStdDev              	|  Normalized standard deviation 	|
-| TimeGravityAccelerationMagnitudeMean             	|  Mean value , measured in seconds	|
-| TimeGravityAccelerationMagnitudeStdDev           	|  Normalized standard deviation 	|
-| TimeBodyAccelerationJerkMagnitudeMean            	|  Mean value , measured in seconds	|
-| TimeBodyAccelerationJerkMagnitudeStdDev          	|  Normalized standard deviation 	|
-| TimeBodyGyroMagnitudeMean                        	|  Mean value, measured in seconds 	|
-| TimeBodyGyroMagnitudeStdDev                      	|  Normalized standard deviation 	|
-| TimeBodyGyroJerkMagnitudeMean                    	|  Mean value, measured in seconds 	|
-| TimeBodyGyroJerkMagnitudeStdDev                  	|  Normalized standard deviation 	|
-| FrequencyBodyAccelerationMeanX                   	|  Mean value of the frequency of body acceleration in the X axial signaling direction, measured in Hz	|
-| FrequencyBodyAccelerationMeanY                   	|  Mean value of the frequency of body acceleration in the Y axial signaling direction, measured in Hz	|
-| FrequencyBodyAccelerationMeanZ                   	|  Mean value of the frequency of body acceleration in the Z axial signaling direction, measured in Hz	|
-| FrequencyBodyAccelerationStdDevX                 	|  Normalized standard deviation of the frequency of body acceleration in the X axial signaling direction	|
-| FrequencyBodyAccelerationStdDevY                 	|  Normalized standard deviation of the frequency of body acceleration in the Y axial signaling direction	|
-| FrequencyBodyAccelerationStdDevZ                 	|  Normalized standard deviation of the frequency of body acceleration in the Z axial signaling direction	|
-| FrequencyBodyAccelerationJerkMeanX               	|  Mean value of the frequency of body acceleration jerk signal in the X axial signaling direction, measured in Hz	|
-| FrequencyBodyAccelerationJerkMeanY               	|  Mean value of the frequency of body acceleration jerk signal in the Y axial signaling direction, measured in Hz	|
-| FrequencyBodyAccelerationJerkMeanZ               	|  Mean value of the frequency of body acceleration jerk signal in the Z axial signaling direction, measured in Hz	|
-| FrequencyBodyAccelerationJerkStdDevX             	|  Normalized standard deviation of the frequency of body acceleration jerk signal in the X axial signaling direction	|
-| FrequencyBodyAccelerationJerkStdDevY             	|  Normalized standard deviation of the frequency of body acceleration jerk signal in the Y axial signaling direction	|
-| FrequencyBodyAccelerationJerkStdDevZ             	|  Normalized standard deviation of the frequency of body acceleration jerk signal in the Z axial signaling direction	|
-| FrequencyBodyGyroMeanX                           	|  Mean value of frequency of angular velocity in the X axial signaling direction, measured in Hz	|
-| FrequencyBodyGyroMeanY                           	|  Mean value of frequency of angular velocity in the Y axial signaling direction, measured in Hz	|
-| FrequencyBodyGyroMeanZ                           	|  Mean value of frequency of angular velocity in the Z axial signaling direction, measured in Hz	|
-| FrequencyBodyGyroStdDevX                         	|  Normalized standard deviation of frequency of angular velocity in the X axial signaling direction	|
-| FrequencyBodyGyroStdDevY                         	|  Normalized standard deviation of frequency of angular velocity in the Y axial signaling direction	|
-| FrequencyBodyGyroStdDevZ                         	|  Normalized standard deviation of frequency of angular velocity in the Z axial signaling direction	|
-| FrequencyBodyAccelerationMagnitudeMean           	|  Mean value, measured in Hz 	|
-| FrequencyBodyAccelerationMagnitudeStdDev         	|  Normalized standard deviation 	|
-| FrequencyBodyBodyAccelerationJerkMagnitudeMean   	|  Mean value , measured in Hz	|
-| FrequencyBodyBodyAccelerationJerkMagnitudeStdDev 	|  Normalized standard deviation 	|
-| FrequencyBodyBodyGyroMagnitudeMean               	|  Mean value , measured in Hz	|
-| FrequencyBodyBodyGyroMagnitudeStdDev             	|  Normalized standard deviation 	|
-| FrequencyBodyBodyGyroJerkMagnitudeMean           	|  Mean value , measured in Hz	|
-| FrequencyBodyBodyGyroJerkMagnitudeStdDev         	|  Normalized standard deviation 	|
+| TimeBodyAccelerationMeanX                        	|  Mean value of acceleration force along the X axis (including gravity) for the time domain, measured in m/s2	|
+| TimeBodyAccelerationMeanY                        	|  Mean value of acceleration force along the Y axis (including gravity) for the time domain, measured in m/s2	|
+| TimeBodyAccelerationMeanZ                        	|  Mean value of acceleration force along the Z axis (including gravity) for the time domain, measured in m/s2	|
+| TimeBodyAccelerationStdDevX                      	|  Normalized standard deviation of acceleration force along the X axis (including gravity) for the time domain	|
+| TimeBodyAccelerationStdDevY                      	|  Normalized standard deviation of acceleration force along the Y axis (including gravity) for the time domain	|
+| TimeBodyAccelerationStdDevZ                      	|  Normalized standard deviation of acceleration force along the Y axis (including gravity) for the time domain	|
+| TimeGravityAccelerationMeanX                     	|  Mean value of force of gravity along the X axis for the time domain, measured in m/s2	|
+| TimeGravityAccelerationMeanY                     	|  Mean value of force of gravity along the Y axis for the time domain, measured in m/s2	|
+| TimeGravityAccelerationMeanZ                     	|  Mean value of force of gravity along the Z axis for the time domain, measured in m/s2	|
+| TimeGravityAccelerationStdDevX                   	|  Normalized standard deviation of force of gravity along the X axis for the time domain	|
+| TimeGravityAccelerationStdDevY                   	|  Normalized standard deviation of force of gravity along the Y axis for the time domain	|
+| TimeGravityAccelerationStdDevZ                   	|  Normalized standard deviation of force of gravity along the Z axis for the time domain	|
+| TimeBodyAccelerationJerkMeanX                    	|  Mean value of acceleration force along the X axis during jerk signal for the time domain, measured in m/s2	|
+| TimeBodyAccelerationJerkMeanY                    	|  Mean value of acceleration force along the Y axis during jerk signal for the time domain, measured in m/s2	|
+| TimeBodyAccelerationJerkMeanZ                    	|  Mean value of acceleration force along the Z axis during jerk signal for the time domain, measured in m/s2	|
+| TimeBodyAccelerationJerkStdDevX                  	|  Normalized standard deviation of acceleration force along the X axis during jerk signal for the time domain	|
+| TimeBodyAccelerationJerkStdDevY                  	|  Normalized standard deviation of acceleration force along the Y axis during jerk signal for the time domain	|
+| TimeBodyAccelerationJerkStdDevZ                  	|  Normalized standard deviation of acceleration force along the Z axis during jerk signal for the time domain	|
+| TimeBodyGyroMeanX                                	|  Mean value of rate of rotation around the X axis for the time domain, measured in rad/s	|
+| TimeBodyGyroMeanY                                	|  Mean value of rate of rotation around the Y axis for the time domain, measured in rad/s	|
+| TimeBodyGyroMeanZ                                	|  Mean value of rate of rotation around the X axis for the time domain, measured in rad/s	|
+| TimeBodyGyroStdDevX                              	|  Normalized standard deviation of rate of rotation around the X axis for the time domain 	|
+| TimeBodyGyroStdDevY                              	|  Normalized standard deviation of rate of rotation around the Y axis for the time domain	|
+| TimeBodyGyroStdDevZ                              	|  Normalized standard deviation of rate of rotation around the Z axis for the time domain	|
+| TimeBodyGyroJerkMeanX                            	|  Mean value of rate of rotation around the X axis during jerk signal for the time domain, measured in rad/s	|
+| TimeBodyGyroJerkMeanY                            	|  Mean value of rate of rotation around the Y axis during jerk signal for the time domain, measured in rad/s	|
+| TimeBodyGyroJerkMeanZ                            	|  Mean value of rate of rotation around the Z axis during jerk signal for the time domain, measured in rad/s	|
+| TimeBodyGyroJerkStdDevX                          	|  Normalized standard deviation of rate of rotation around the X axis during jerk signal for the time domain	|
+| TimeBodyGyroJerkStdDevY                          	|  Normalized standard deviation of rate of rotation around the Y axis during jerk signal for the time domain	|
+| TimeBodyGyroJerkStdDevZ                          	|  Normalized standard deviation of rate of rotation around the Z axis during jerk signal for the time domain	|
+| TimeBodyAccelerationMagnitudeMean                	|  Mean value of acceleration force magnitude for the time domain, measured in m/s2 	|
+| TimeBodyAccelerationMagnitudeStdDev              	|  Normalized standard deviation of acceleration force magnitude for the time domain 	|
+| TimeGravityAccelerationMagnitudeMean             	|  Mean value of force of gravity magnitude for the time domain, measured in m/s2	|
+| TimeGravityAccelerationMagnitudeStdDev           	|  Normalized standard deviation of force of gravity magnitude for the time domain	|
+| TimeBodyAccelerationJerkMagnitudeMean            	|  Mean value of acceleration force magnitude during jerk signal for the time domain, measured in m/s2	|
+| TimeBodyAccelerationJerkMagnitudeStdDev          	|  Normalized standard deviation of acceleration force magnitude during jerk signal for the time domain 	|
+| TimeBodyGyroMagnitudeMean                        	|  Mean value of rate of rotation magnitude for the time domain, measured in rad/s 	|
+| TimeBodyGyroMagnitudeStdDev                      	|  Normalized standard deviation of rate of rotation magnitude for the time domain	|
+| TimeBodyGyroJerkMagnitudeMean                    	|  Mean value of rate of rotation magnitude during jerk signal for the time domain, measured in rad/s 	|
+| TimeBodyGyroJerkMagnitudeStdDev                  	|  Normalized standard deviation of rate of rotation magnitude during jerk signal for the time domain	|
+| FrequencyBodyAccelerationMeanX                   	|  Mean value of acceleration force along the X axis (including gravity) for the frequency domain, measured in m/s2	|
+| FrequencyBodyAccelerationMeanY                   	|  Mean value of acceleration force along the Y axis (including gravity) for the frequency domain, measured in m/s2	|
+| FrequencyBodyAccelerationMeanZ                   	|  Mean value of acceleration force along the Z axis (including gravity) for the frequency domain, measured in m/s2	|
+| FrequencyBodyAccelerationStdDevX                 	|  Normalized standard deviation of acceleration force along the X axis (including gravity) for the frequency domain	|
+| FrequencyBodyAccelerationStdDevY                 	|  Normalized standard deviation of acceleration force along the Y axis (including gravity) for the frequency domain	|
+| FrequencyBodyAccelerationStdDevZ                 	|  Normalized standard deviation of acceleration force along the Z axis (including gravity) for the frequency domain	|
+| FrequencyBodyAccelerationJerkMeanX               	|  Mean value of acceleration force along the X axis during jerk signal for the frequency domain, measured in m/s2	|
+| FrequencyBodyAccelerationJerkMeanY               	|  Mean value of acceleration force along the Y axis during jerk signal for the frequency domain, measured in m/s2	|
+| FrequencyBodyAccelerationJerkMeanZ               	|  Mean value of acceleration force along the Z axis during jerk signal for the frequency domain, measured in m/s2	|
+| FrequencyBodyAccelerationJerkStdDevX             	|  Normalized standard deviation of acceleration force along the X axis during jerk signal for the frequency domain	|
+| FrequencyBodyAccelerationJerkStdDevY             	|  Normalized standard deviation of acceleration force along the Y axis during jerk signal for the frequency domain	|
+| FrequencyBodyAccelerationJerkStdDevZ             	|  Normalized standard deviation of acceleration force along the Z axis during jerk signal for the frequency domain	|
+| FrequencyBodyGyroMeanX                           	|  Mean value of frequency of angular velocity in the X axial signaling direction for the frequency domain, measured in Hz	|
+| FrequencyBodyGyroMeanY                           	|  Mean value of frequency of angular velocity in the Y axial signaling direction for the frequency domain, measured in Hz	|
+| FrequencyBodyGyroMeanZ                           	|  Mean value of frequency of angular velocity in the Z axial signaling direction for the frequency domain, measured in Hz	|
+| FrequencyBodyGyroStdDevX                         	|  Normalized standard deviation of frequency of angular velocity in the X axial signaling direction for the frequency domain	|
+| FrequencyBodyGyroStdDevY                         	|  Normalized standard deviation of frequency of angular velocity in the Y axial signaling direction for the frequency domain	|
+| FrequencyBodyGyroStdDevZ                         	|  Normalized standard deviation of frequency of angular velocity in the Z axial signaling direction for the frequency domain	|
+| FrequencyBodyAccelerationMagnitudeMean           	|  Mean value of acceleration force magnitude for the frequency domain, measured in m/s2 	|
+| FrequencyBodyAccelerationMagnitudeStdDev         	|  Normalized standard deviation of acceleration force magnitude for the frequency domain	|
+| FrequencyBodyBodyAccelerationJerkMagnitudeMean   	|  Mean value of acceleration force magnitude during jerk signal for the frequency domain, measured in m/s2	|
+| FrequencyBodyBodyAccelerationJerkMagnitudeStdDev 	|  Normalized standard deviation of acceleration force magnitude during jerk signal for the frequency domain	|
+| FrequencyBodyBodyGyroMagnitudeMean               	|  Mean value of rate of rotation magnitude for the frequency domain, measured in rad/s	|
+| FrequencyBodyBodyGyroMagnitudeStdDev             	|  Normalized standard deviation of rate of rotation magnitude for the frequency domain	|
+| FrequencyBodyBodyGyroJerkMagnitudeMean           	|  Mean value of rate of rotation magnitude during jerk signal for the frequency domain, measured in rad/s	|
+| FrequencyBodyBodyGyroJerkMagnitudeStdDev         	|  Normalized standard deviation of rate of rotation magnitude during jerk signal for the frequency domain	|
