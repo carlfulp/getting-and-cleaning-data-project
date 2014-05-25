@@ -1,12 +1,12 @@
-## getting-and-cleaning-data-project
+# Getting and Cleaning Data Project
 
-The data set used herein is derived from the "Human Activity Recognition Using Smartphones Data Set," described in 
+The data set used herein are derived from the "Human Activity Recognition Using Smartphones Data Set," described in 
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012 
 
 and at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
-# Data Collection Description
+## Data Collection Description
 
 [The following was copied verbatim from the "ReadMe.txt" file contained in the original data set.]
 
@@ -18,7 +18,7 @@ SUMMARY: The experiments have been carried out with a group of 30 volunteers wit
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
-# Feature Selection 
+## Feature Selection 
 
 For each record in the dataset it is provided: 
 * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
@@ -38,21 +38,21 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-# Data Processing
+## Data Processing
 
 To obtain a "tidy data" set, data was processed as follows:
 
-* Data was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzipped.  A script, designated as "run_analysis.R" and included in this directory, was generated using R v.3.0.3 to complete the subsequent steps.
+* Data were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzipped into a directy on my PC.  A script, designated as "run_analysis.R" and included in this directory, was generated using R v.3.0.3 to complete the subsequent steps.
 * Of the original data, the following files were used to generate the tidy data set: "X_test.txt," "y_test.txt," "subject_test.txt," "X_train.txt," "y_train.txt," "subject_train.txt," "features.txt," and "activity_labels.txt."
-* Test (""X_test.txt") and Training data ("X_train.txt") sets were merged with their respective files describing the subjects ("subject_test.txt" and "subject_train.txt") and their activities ("y_test.txt" and "y_train.txt") so that new columns was added to the data set the contain a number corresponding to the Subject from which the observation was made and a number correspoding to one of the six Sctivities performed.
-* Resulting merged files were then themselves merged to create a dataframe so that a single dataframe contained both test and training data.  This dataframe contained 10,299 observations for 563 variables.
-* For the column corresponding to Activity, each number was converted to a word descriptor for that activity.  The key used to match numbers to word descriptor resides in the "activity_labels.txt" file.
+* Test (""X_test.txt") and Training data ("X_train.txt") sets were first merged with their respective files describing the subjects ("subject_test.txt" and "subject_train.txt") and their activities ("y_test.txt" and "y_train.txt") so that new columns were added to the data sets the contain a number corresponding to the Subject from which the observation was made and a number corresponding to one of the six Activities performed.
+* Resulting merged files were then themselves merged to create a single dataframe containing both the test and training data sets.  This dataframe contained 10,299 observations for 563 variables.
+* For the column corresponding to Activity, each number was then converted to a word descriptor corresponding to that activity.  The key used to match numbers to word descriptors resides in the "activity_labels.txt" file.
 * Column names were then added for each of the features measured.  The key used to match the columns to features resides in the "features.txt."
-* Columns corresponding to Subject, Activity, and features corresponding to mean and standard deviation for each measurement were retained.  All other columns were discarded. Each of these variables are described in the codebook which is included in this directory.  I chose to only include those variables containing "mean()" and "std()" as described in the "features_info.txt."  Variables containing menFreq() were discarded. This resulted in a dataframe with 10,299 observations for 68 variables.
-* Next, column names were cleaned up so that variables were formatted as CamelCase.  Although, it is not the recommended formatting stipulated by the professors of the Getting and Cleaning Data course (i.e. they prefer variable names not contain capital letters) , I have chosen to use it here as the length of the variables names are quite long and unwieldy when left as lowercase.
-* Finally, the tidy data set was compiled by computing the average of each variable for each activity and each subject, and this was saved as "tidydata.txt."  The tidy data set contained 180 observations for 68 variables.
+* Columns corresponding to Subject, Activity, and features representing the mean and standard deviations for each measurement were retained.  All other columns were discarded. Each of the retained variables are described in detail within the CodeBook which is included in this directory.  I chose to only include those variables containing "mean()" and "std()" as described in the "features_info.txt."  Variables containing menFreq() were thus discarded. This resulted in a dataframe with 10,299 observations for 68 variables.
+* Next, column names were cleaned up so that variables were formatted in the CamelCase format.  Although, it is not the format recommended by the course professors (i.e. they generally prefer variable names that do not contain capital letters) , I have chosen to take this approach for readability purposes, as the length of the variables names are quite long and unwieldy when left as lowercase.
+* Finally, the tidy data set was compiled by computing the average of each variable for each activity and each subject, and these results were saved as "tidydata.txt."  The tidy data set contained 180 observations for 68 variables.
 
-# Codebook for TidyData
+## Codebook for TidyData
 
 |Variable Name                                  	|  Variable Description 	|
 |--------------------------------------------------	|---	|

@@ -1,6 +1,6 @@
-## Getting and Cleaning Data Project
+# Getting and Cleaning Data Project
 
-# Purpose of this project
+## Purpose of this project
 This GitHub repo contains the scripts necessary for the completion of the course project for the Johns Hopkins University Getting and Cleaning Data course.  The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare a tidy data that can be used for later analysis.
 
 To fulfill this goal, students were instructed to create a single R script called run_analysis.R that performs the following tasks: 
@@ -10,10 +10,10 @@ To fulfill this goal, students were instructed to create a single R script calle
 * Appropriately labels the data set with descriptive activity names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# Data Set Used
+## Data Set Used
 The dataset to be cleaned and summarized is the "Human Activity Recognition Using Smartphones Data Set," described here (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and in greater detail within the CodeBook markdown file contained withing this directory.  Briefly, the data set is a large multivariate, time-series (10299 instances of 561 attributes) built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
-# Pseudocode describing the approach used to fulfill project goals
+## Pseudocode describing the approach used to fulfill project goals
 
 To fulfill the assigned goal, I processed the data as follows:
 
