@@ -10,7 +10,7 @@ To fulfill this goal, students were instructed to create a single R script calle
 * Appropriately labels the data set with descriptive activity names. 
 * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Data Set Used
+## Data set used
 The dataset to be cleaned and summarized is the "Human Activity Recognition Using Smartphones Data Set," described here (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and in greater detail within the CodeBook markdown file contained withing this directory.  Briefly, the data set is a large multivariate, time-series (10299 instances of 561 attributes) built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 ## Pseudocode describing the approach used
